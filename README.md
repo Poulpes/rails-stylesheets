@@ -7,14 +7,6 @@ Ensure you have the following gems in your Rails `Gemfile`
 gem 'font-awesome-sass'
 gem 'simple_form'
 gem 'autoprefixer-rails'
-gem 'simple_form-materialize'
-```
-
-In your terminal, generate SimpleForm Materialize config.
-
-```bash
-$ bundle install
-$ rails g simple_form:materialize:install
 ```
 
 Then replace Rails' stylesheets by Le Wagon's stylesheets:
