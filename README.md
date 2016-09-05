@@ -85,14 +85,5 @@ For every folder (**`components`**, **`layout`**, **`pages`**, **`vendor`**), th
 @import "base";
 @import "utilities";
 @import "footer";
-@import "navbar";
 @import "sidebar";
 ```
-
-## Navbar template
-
-Our `layout/_navbar.scss` code works well with our home-made ERB template which you can find 
-
-- [version without login](https://github.com/lewagon/awesome-navbars/blob/master/templates/_navbar_wagon_without_login.html.erb).
-- [version with login](https://github.com/lewagon/awesome-navbars/blob/master/templates/_navbar_wagon.html.erb).
-
