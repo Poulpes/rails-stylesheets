@@ -13,7 +13,7 @@ Then replace Rails' stylesheets by Le Wagon's stylesheets:
 
 ```
 $ rm -rf app/assets/stylesheets
-$ curl -L https://github.com/lewagon/stylesheets/archive/master.zip > stylesheets.zip
+$ curl -L https://github.com/poulpes/stylesheets/archive/master.zip > stylesheets.zip
 $ unzip stylesheets.zip -d app/assets && rm stylesheets.zip && mv app/assets/rails-stylesheets-master app/assets/stylesheets
 ```
 
@@ -24,7 +24,6 @@ Don't forget the sprockets directives in `assets/application.js`
 
 //= require jquery
 //= require jquery_ujs
-//= require bootstrap-sprockets
 //= require_tree .
 ```
 
@@ -46,10 +45,8 @@ Look at your main `application.scss` file to see how SCSS files are imported.
 ```scss
 // Graphical variables
 @import "config/variables";
-@import "config/bootstrap_variables";
 
 // External libraries
-@import "bootstrap";
 @import "font-awesome-sprockets";
 @import "font-awesome";
 
